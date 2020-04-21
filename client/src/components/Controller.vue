@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div width="100%" class="ma-auto">
        <CodeInput class='ma-4' v-on:connect-to="connectToBase"/>
        <v-card class='my-2' width='100%' v-if="connected">
            <v-card-title>Base Station Code: {{ code }}</v-card-title>

@@ -1,6 +1,6 @@
 <template>
     <v-card class='mx-auto' width='100%'>
-        <v-container>
+        <v-container fluid>
             <v-row justify='center' align='center'>
                 <v-col cols='auto'>
                     <v-btn large class='ma-5' v-on:click="baseClicked">Base Station</v-btn>

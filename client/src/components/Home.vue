@@ -1,11 +1,9 @@
 <template>
-  <v-container fill-height>
-    <v-row justify="center" align="center">
-        <v-col cols="12" sm="4">
+  <v-container fill-height >
+    <v-row align="center">
             <Start v-if="isInit" v-on:init-base="initBase()" v-on:init-controller="initController()"/>
             <Base v-if="isBase" />
             <Controller v-if="isController" />
-        </v-col>
     </v-row>
   </v-container>
 </template>

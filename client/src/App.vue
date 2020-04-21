@@ -14,9 +14,9 @@
         <!-- End of app toolbar -->
       <!-- End of Navigation -->
 
-      <v-content>
+      <v-content align="center">
         <!-- Display view pages here based on route -->
-        <router-view></router-view>
+        <Home />
       </v-content>
     </div>
   </v-app>
@@ -24,10 +24,12 @@
 
 <script>
   import ConnectHandler from '@/components/ConnectHandler'
+  import Home from '@/components/Home'
 
   export default {
     name: "App",
     components: {
+      Home,
       ConnectHandler
     },
     data() {
